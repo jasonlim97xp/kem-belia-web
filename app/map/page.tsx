@@ -122,7 +122,7 @@ const MapPage = () => {
             videoId={selectedVideo.videoId}
             onClose={closeModal}
             allowFullScreen={true}
-            ratio="9:16"
+            ratio="10:12"
           />
         )}
       </section>
