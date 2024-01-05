@@ -2,6 +2,8 @@
 import React, { useState } from "react";
 import NextImage from "next/image";
 import { FaMapMarkerAlt } from "react-icons/fa";
+import ModalVideo from "react-modal-video";
+
 import VideoCard from "./VideoCard";
 
 import { pinpoints } from "./pinpointsData";
@@ -14,12 +16,34 @@ const MapPage = () => {
     setSelectedPinpoint(pinpoint);
   };
 
+  const [isOpenModal, setOpenModal] = useState(false);
+  const triggerModal = (video) => {
+    return () => {
+      setOpenModal(true);
+      setSelectedVideo(video);
+      console.log(video);
+    };
+  };
+
+  const closeModal = () => {
+    setOpenModal(false);
+    setSelectedVideo(null);
+  };
+
+  const [selectedVideo, setSelectedVideo] = useState(null);
+
   // Handle list of videos
   const renderVideos = () => {
     if (selectedPinpoint) {
       return videos
         .filter((video) => video.pinpoint.includes(selectedPinpoint.id))
-        .map((video) => <VideoCard key={video.id} video={video} />);
+        .map((video) => (
+          <VideoCard
+            key={video.id}
+            video={video}
+            triggerVideoModal={() => triggerModal(video)}
+          />
+        ));
     } else {
       return null;
     }
@@ -70,8 +94,8 @@ const MapPage = () => {
                     ))}
                   </div>
                   {/* Video */}
-                  <div className="flex flex-1 flex-col border-4 p-2">
-                    <p className="mb-4 text-lg font-bold text-black ">
+                  <div className="flex flex-1 flex-col border-4 border-black p-2">
+                    <p className="mb-4 text-lg font-bold text-black underline ">
                       Checkpoint Name:{" "}
                       {selectedPinpoint && selectedPinpoint.title}
                     </p>
@@ -89,6 +113,18 @@ const MapPage = () => {
             </div>
           </div>
         </div>
+        {selectedVideo && (
+          <ModalVideo
+            channel="youtube"
+            autoplay={true}
+            start={true}
+            isOpen={isOpenModal}
+            videoId={selectedVideo.videoId}
+            onClose={closeModal}
+            allowFullScreen={true}
+            ratio="9:16"
+          />
+        )}
         <div className="absolute left-0 top-0 z-[-1]">
           <svg
             width="1440"
