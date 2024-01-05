@@ -4,11 +4,8 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <>
-      <footer
-        className="wow fadeInUp relative z-0 bg-primary bg-opacity-5 pt-16 md:pt-20 lg:pt-24"
-        data-wow-delay=".1s"
-      >
-        <div className="container">
+      <footer className="wow fadeInUp relative z-0 " data-wow-delay=".1s">
+        {/* <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
               <div className="mb-12 max-w-[360px] lg:mb-16">
@@ -204,18 +201,15 @@ const Footer = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="bg-primary/10 py-8">
           <div className="container">
             <p className="text-center text-base text-body-color dark:text-white">
-              Template by UIdeck and{" "}
-              <a href="https://nextjstemplates.com" rel="nofollow noopener">
-                Next.js Templates
-              </a>
+              Copyright by Kem Tutti Fratelli 2024
             </p>
           </div>
         </div>
-        <div className="absolute right-0 top-14 z-[-1]">
+        {/* <div className="absolute right-0 top-14 z-[-1]">
           <svg
             width="55"
             height="99"
@@ -288,7 +282,7 @@ const Footer = () => {
               </radialGradient>
             </defs>
           </svg>
-        </div>
+        </div> */}
         <div className="absolute bottom-24 left-0 z-[-1]">
           <svg
             width="79"

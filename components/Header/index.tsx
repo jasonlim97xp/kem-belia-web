@@ -139,7 +139,8 @@ const Header = () => {
               </div> */}
               <div className="flex items-center justify-end gap-4 ">
                 <Link
-                  href="/signin"
+                  // href="/signin"
+                  href="/"
                   className="hidden px-7 py-3 text-sm font-bold text-black hover:opacity-70 md:block "
                 >
                   HOME
@@ -151,7 +152,8 @@ const Header = () => {
                   MAP
                 </Link>
                 <Link
-                  href="/signup"
+                  // href="/signup"
+                  href="/guide"
                   className="ease-in-up hidden rounded-md bg-primary px-8 py-3 text-sm font-bold text-white transition duration-300 hover:bg-opacity-90 hover:shadow-signUp md:block md:px-9 lg:px-6 xl:px-9"
                 >
                   GUIDES

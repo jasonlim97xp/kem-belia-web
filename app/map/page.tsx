@@ -56,7 +56,7 @@ const MapPage = () => {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
               <div className="mx-auto flex max-w-screen-lg flex-col rounded-md bg-primary bg-opacity-5 px-8 py-10 ">
-                <h3 className="mb-10 text-center text-2xl font-bold text-black sm:text-3xl dark:text-white">
+                <h3 className="mb-10 text-center text-2xl font-bold text-black sm:text-3xl ">
                   Taman Rimba Bukit Lagong Map Layout
                 </h3>
                 <div className="flex flex-col gap-4 lg:flex-row">

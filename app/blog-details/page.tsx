@@ -5,18 +5,18 @@ import Image from "next/image";
 const BlogDetailsPage = () => {
   return (
     <>
-      <section className="pt-[150px] pb-[120px]">
+      <section className="pb-[120px] pt-[150px]">
         <div className="container">
           <div className="-mx-4 flex flex-wrap justify-center">
             <div className="w-full px-4 lg:w-8/12">
               <div>
-                <h2 className="mb-8 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight">
+                <h2 className="mb-8 text-3xl font-bold leading-tight text-black sm:text-4xl sm:leading-tight dark:text-white">
                   10 amazing sites to download stock photos & digital assets for
                   free
                 </h2>
                 <div className="mb-10 flex flex-wrap items-center justify-between border-b border-body-color border-opacity-10 pb-4 dark:border-white dark:border-opacity-10">
                   <div className="flex flex-wrap items-center">
-                    <div className="mr-10 mb-5 flex items-center">
+                    <div className="mb-5 mr-10 flex items-center">
                       <div className="mr-4">
                         <div className="relative h-10 w-10 overflow-hidden rounded-full">
                           <Image
@@ -89,7 +89,7 @@ const BlogDetailsPage = () => {
                   <div className="mb-5">
                     <a
                       href="#0"
-                      className="inline-flex items-center justify-center rounded-full bg-primary py-2 px-4 text-sm font-semibold text-white"
+                      className="inline-flex items-center justify-center rounded-full bg-primary px-4 py-2 text-sm font-semibold text-white"
                     >
                       Design
                     </a>
@@ -132,7 +132,7 @@ const BlogDetailsPage = () => {
                     aliquet porttitor. Odio pellentesque diam volutpat commodo
                     sed.
                   </p>
-                  <h3 className="font-xl mb-10 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
+                  <h3 className="font-xl mb-10 font-bold leading-tight text-black sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight dark:text-white">
                     Digital marketplace for Ui/Ux designers.
                   </h3>
                   <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
@@ -213,7 +213,7 @@ const BlogDetailsPage = () => {
                         </defs>
                       </svg>
                     </span>
-                    <span className="absolute right-0 bottom-0 z-[-1]">
+                    <span className="absolute bottom-0 right-0 z-[-1]">
                       <svg
                         width="53"
                         height="30"

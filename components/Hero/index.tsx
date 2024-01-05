@@ -26,10 +26,16 @@ const Hero = () => {
                 </h1>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
-                    href="https://nextjstemplates.com/templates/startup"
+                    href="/guide"
                     className="rounded-md bg-[#FF0000] px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-[#FF0000]/80"
                   >
                     View Campers Guide
+                  </Link>
+                  <Link
+                    href="/map"
+                    className="rounded-md bg-[#FFFFFF] px-8 py-4 text-base font-semibold text-[#FF0000] duration-300 ease-in-out hover:bg-[#FFFFFF]/80"
+                  >
+                    View Campsite
                   </Link>
                 </div>
               </div>
