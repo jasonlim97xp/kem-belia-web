@@ -1,7 +1,7 @@
 const VideoCard = ({ video, triggerVideoModal }) => {
   return (
     <button
-      className="flex flex-col rounded bg-white shadow-lg transition duration-300 ease-in-out hover:bg-gray-100"
+      className="flex flex-col rounded border-2 border-gray-500 bg-white shadow-lg transition duration-300 ease-in-out hover:bg-gray-100"
       onClick={triggerVideoModal(video)}
     >
       <div className="flex w-full px-4 py-4">

@@ -202,10 +202,10 @@ const Footer = () => {
             </div>
           </div>
         </div> */}
-        <div className="bg-primary/10 py-8">
+        <div className="bg-[#0a121e] py-8">
           <div className="container">
-            <p className="text-center text-base text-body-color dark:text-white">
-              Copyright by Kem Tutti Fratelli 2024
+            <p className="text-center text-sm text-white ">
+              © Copyright 2024 Kem Belia 42
             </p>
           </div>
         </div>
@@ -283,7 +283,7 @@ const Footer = () => {
             </defs>
           </svg>
         </div> */}
-        <div className="absolute bottom-24 left-0 z-[-1]">
+        {/* <div className="absolute bottom-24 left-0 z-[-1]">
           <svg
             width="79"
             height="94"
@@ -398,7 +398,7 @@ const Footer = () => {
               </linearGradient>
             </defs>
           </svg>
-        </div>
+        </div> */}
       </footer>
     </>
   );
