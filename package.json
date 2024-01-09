@@ -10,7 +10,11 @@
   },
   "dependencies": {
     "@material-tailwind/react": "^2.1.8",
+    "@mdx-js/loader": "^3.0.0",
+    "@mdx-js/react": "^3.0.0",
     "@next/font": "13.1.6",
+    "@next/mdx": "^14.0.4",
+    "@types/mdx": "^2.0.10",
     "eslint": "8.33.0",
     "eslint-config-next": "13.1.6",
     "next": "13.1.6",
@@ -19,6 +23,7 @@
     "react-dom": "18.2.0",
     "react-icons": "^4.12.0",
     "react-modal-video": "^2.0.0",
+    "react-youtube": "^10.1.0",
     "sharp": "^0.33.1"
   },
   "devDependencies": {
