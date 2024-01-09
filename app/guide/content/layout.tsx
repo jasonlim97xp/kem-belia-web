@@ -16,7 +16,7 @@ export default function MdxLayout({ children }: { children: React.ReactNode }) {
           <div className="container">
             <div className="-mx-4 flex flex-wrap justify-center">
               <div className="w-full px-4 lg:w-8/12">
-                <div>
+                <div className="text-black">
                   {children}
                   {/* <div>
                   <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">

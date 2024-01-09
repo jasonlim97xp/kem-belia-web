@@ -13,7 +13,7 @@ const Video = () => {
       <div className="container">
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
-            <h2 className="mb-12 text-center text-4xl font-bold leading-tight lg:text-5xl ">
+            <h2 className="mb-12 text-center text-4xl font-bold leading-tight text-black lg:text-5xl ">
               From the team that brought you Kem Belia
             </h2>
 
