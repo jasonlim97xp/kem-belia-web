@@ -2,7 +2,7 @@ import SharePost from "@/components/Blog/SharePost";
 import TagButton from "@/components/Blog/TagButton";
 import Image from "next/image";
 
-const BlogDetailsPage = ({ blog }) => {
+const BlogDetailsPage = () => {
   return (
     <>
       <section className="pb-[120px] pt-[150px]">
