@@ -17,7 +17,7 @@ export const Pagination = ({ currentPage, totalPages, onPageChange }) => {
   return (
     <div className="flex items-center justify-center gap-2 pt-8">
       <button
-        className={`hover:text-white" flex h-9 min-w-[36px] items-center justify-center rounded-md bg-body-color bg-opacity-[15%] px-4 text-sm text-body-color transition hover:bg-primary hover:bg-opacity-100 ${
+        className={`hover:text-white" flex h-9 min-w-[36px] items-center justify-center rounded-md bg-body-color bg-opacity-100 px-4 text-sm text-white transition hover:bg-primary hover:bg-opacity-100 ${
           currentPage <= 1 && "cursor-not-allowed opacity-50"
         }`}
         disabled={currentPage <= 1}
@@ -30,7 +30,7 @@ export const Pagination = ({ currentPage, totalPages, onPageChange }) => {
         <button
           key={pageNumber}
           onClick={() => handlePageChange(pageNumber)}
-          className={`flex h-[40px] min-w-[40px] items-center justify-center rounded-md bg-body-color bg-opacity-[15%] px-4 text-sm text-body-color transition hover:bg-primary hover:bg-opacity-100 hover:text-white ${
+          className={`flex h-[40px] min-w-[40px] items-center justify-center rounded-md bg-body-color bg-opacity-100 px-4 text-sm text-white transition hover:bg-primary hover:bg-opacity-100 hover:text-white ${
             currentPage == pageNumber && "bg-primary bg-opacity-100 text-white"
           } `}
         >
@@ -40,7 +40,7 @@ export const Pagination = ({ currentPage, totalPages, onPageChange }) => {
 
       {/* {currentPage < totalPages && ( */}
       <button
-        className={`hover:text-white" flex h-9 min-w-[36px] items-center justify-center rounded-md bg-body-color bg-opacity-[15%] px-4 text-sm text-body-color transition hover:bg-primary hover:bg-opacity-100 ${
+        className={`hover:text-white" flex h-9 min-w-[36px] items-center justify-center rounded-md bg-body-color bg-opacity-100 px-4 text-sm text-white transition hover:bg-primary hover:bg-opacity-100 ${
           currentPage >= totalPages && "cursor-not-allowed opacity-50"
         } `}
         disabled={currentPage >= totalPages}

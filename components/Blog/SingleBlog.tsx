@@ -18,11 +18,11 @@ const SingleBlog = ({ blog }: { blog: Blog }) => {
         </div>
         <div className="p-6">
           <h3>
-            <p className="mb-4 block text-xl font-bold text-black hover:text-primary sm:text-2xl dark:text-white dark:hover:text-primary">
+            <p className="mb-4 block text-xl font-bold text-black hover:text-primary sm:text-2xl ">
               {title}
             </p>
           </h3>
-          <p className=" pb-6 text-base font-medium text-body-color dark:border-white dark:border-opacity-10">
+          <p className=" pb-6 text-base font-medium text-body-color ">
             {paragraph}
           </p>
         </div>

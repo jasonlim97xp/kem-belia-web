@@ -7,14 +7,14 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import { Pagination } from "@/components/Guide/Pagination";
 
 const Blog = () => {
+  // Pagination required variables
   const blogsPerPage = 6;
   const totalBlogs = blogData.length;
   const totalPages = Math.ceil(totalBlogs / blogsPerPage);
-
   const [currentPage, setCurrentPage] = useState(1);
-
   const startIndex = (currentPage - 1) * blogsPerPage;
   const endIndex = startIndex + blogsPerPage;
+
   const blogsToShow = blogData.slice(startIndex, endIndex);
 
   const handlePageChange = (pageNumber) => {

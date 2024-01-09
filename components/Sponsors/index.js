@@ -3,7 +3,7 @@ import { sponsors } from "./sponsorsData";
 const Sponsors = () => {
   return (
     <div className="mb-24 mt-24 px-28 xs:px-10">
-      <h2 className="mb-12 text-center text-6xl font-bold leading-tight ">
+      <h2 className="mb-12 text-center text-4xl font-bold leading-tight lg:text-6xl ">
         Our Sponsors
       </h2>
 

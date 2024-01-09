@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const AboutSectionTwo = () => {
   return (
-    <section className="py-20">
+    <section className="py-10 lg:py-20">
       <div className="container">
         <div className="-mx-4 flex flex-wrap items-center justify-center">
           <div className="w-full px-4 lg:w-1/3">
@@ -23,7 +23,7 @@ const AboutSectionTwo = () => {
           <div className="w-full px-4 lg:w-fit">
             <div className="wow fadeInUp max-w-[470px]" data-wow-delay=".2s">
               <div className="mb-9">
-                <h2 className="mb-5 text-6xl font-bold text-black">
+                <h2 className="mb-5 text-4xl font-bold text-black lg:text-6xl">
                   Important Info
                 </h2>
                 <p className="text-base font-medium leading-relaxed text-black">
