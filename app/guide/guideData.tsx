@@ -132,7 +132,7 @@ const blogData: Blog[] = [
   },
   {
     id: 14,
-    title: "Setiausaha Roles & Responsibilities",
+    title: "Peranan & Tanggungjawab sebagai Setiausaha Kumpulan",
     paragraph:
       "Secretary is a vital role for record keeping and documentation. Get ready as the gatekeeper of your group with these guidelines!",
     image: "/images/guide/setiausaha.jpeg",
