@@ -2,7 +2,7 @@ export const sponsors = [
   {
     id: 1,
     name: "Al Jazeerah Restaurant",
-    logo: "al_jazeerah.jpeg",
+    logo: "al_jazeerah.png",
   },
   {
     id: 2,
@@ -88,5 +88,15 @@ export const sponsors = [
     id: 18,
     name: "Yeos",
     logo: "yeos_logo.png",
+  },
+  {
+    id: 19,
+    name: "Ten-Sion",
+    logo: "tension_logo.png",
+  },
+  {
+    id: 20,
+    name: "Zenith",
+    logo: "zenith.png",
   },
 ];

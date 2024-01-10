@@ -25,7 +25,9 @@ const GuideHeader = ({ id }) => {
               <h4 className="mb-1 text-base font-medium text-body-color">
                 By
                 <span>
-                  {guide && guide.by ? guide.by : " Kem Belia 42 Commitee"}
+                  {guide && guide.by
+                    ? ` ${guide.by}`
+                    : " Kem Belia 42 Commitee"}
                 </span>
               </h4>
             </div>

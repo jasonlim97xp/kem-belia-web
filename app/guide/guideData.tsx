@@ -67,7 +67,7 @@ const blogData: Blog[] = [
     image: "/images/guide/rules.jpeg",
     tags: ["general"],
     by: "",
-    url: "welcome-to-kem-belia",
+    url: "rules",
   },
   {
     id: 8,
@@ -132,12 +132,12 @@ const blogData: Blog[] = [
   },
   {
     id: 14,
-    title: "Peranan & Tanggungjawab sebagai Setiausaha Kumpulan",
+    title: "Setiausaha Roles & Responsibilities",
     paragraph:
       "Secretary is a vital role for record keeping and documentation. Get ready as the gatekeeper of your group with these guidelines!",
     image: "/images/guide/setiausaha.jpeg",
     tags: ["roles"],
-    by: "",
+    by: "Team SU Kem Belia Ke-42",
     url: "setiausaha",
   },
   {
