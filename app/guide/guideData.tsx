@@ -58,7 +58,7 @@ const blogData: Blog[] = [
     image: "/images/blog/blog-03.jpg",
     tags: ["general"],
     by: "",
-    url: "welcome-to-kem-belia",
+    url: "whistle-system",
   },
   {
     id: 7,
@@ -117,7 +117,7 @@ const blogData: Blog[] = [
     image: "/images/blog/blog-03.jpg",
     tags: ["roles"],
     by: "",
-    url: "welcome-to-kem-belia",
+    url: "ketua",
   },
 
   {
@@ -128,7 +128,7 @@ const blogData: Blog[] = [
     image: "/images/blog/blog-03.jpg",
     tags: ["roles"],
     by: "",
-    url: "welcome-to-kem-belia",
+    url: "penolong-ketua",
   },
   {
     id: 14,
@@ -138,7 +138,7 @@ const blogData: Blog[] = [
     image: "/images/blog/blog-03.jpg",
     tags: ["roles"],
     by: "",
-    url: "welcome-to-kem-belia",
+    url: "setiausaha",
   },
   {
     id: 15,
@@ -148,7 +148,7 @@ const blogData: Blog[] = [
     image: "/images/blog/blog-03.jpg",
     tags: ["roles"],
     by: "",
-    url: "welcome-to-kem-belia",
+    url: "kuatermaster",
   },
   {
     id: 16,
@@ -158,7 +158,7 @@ const blogData: Blog[] = [
     image: "/images/blog/blog-03.jpg",
     tags: ["roles"],
     by: "",
-    url: "welcome-to-kem-belia",
+    url: "kebudayaan",
   },
   {
     id: 17,
@@ -168,7 +168,7 @@ const blogData: Blog[] = [
     image: "/images/blog/blog-03.jpg",
     tags: ["roles"],
     by: "",
-    url: "welcome-to-kem-belia",
+    url: "sosial-media",
   },
   {
     id: 18,
@@ -178,7 +178,7 @@ const blogData: Blog[] = [
     image: "/images/blog/blog-03.jpg",
     tags: ["roles"],
     by: "",
-    url: "welcome-to-kem-belia",
+    url: "kkk",
   },
 ];
 
