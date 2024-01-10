@@ -5,8 +5,8 @@ const blogData: Blog[] = [
     id: 1,
     title: "Welcome to Kem Belia",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/blog-01.jpg",
+      "Get ready for an unforgettable experience filled with adventure, discovery, and personal growth.",
+    image: "/images/guide/welcome.jpg",
     tags: ["general"],
     by: "",
     url: "welcome-to-kem-belia",
@@ -14,8 +14,7 @@ const blogData: Blog[] = [
   {
     id: 2,
     title: "Kem Belia Details",
-    paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+    paragraph: "Learn more about the camp details.",
     image: "/images/blog/blog-02.jpg",
     tags: ["general"],
     by: "",
@@ -53,7 +52,7 @@ const blogData: Blog[] = [
   },
   {
     id: 6,
-    title: "Wistle System",
+    title: "Whistle System",
     paragraph:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
     image: "/images/blog/blog-03.jpg",
@@ -64,9 +63,8 @@ const blogData: Blog[] = [
   {
     id: 7,
     title: "General Rules & Regulations",
-    paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/blog-03.jpg",
+    paragraph: "Learn more on the general rules and regulations of the camp.",
+    image: "/images/guide/rules.jpeg",
     tags: ["general"],
     by: "",
     url: "welcome-to-kem-belia",
@@ -85,8 +83,8 @@ const blogData: Blog[] = [
     id: 9,
     title: "Taklimat 2 Checklist",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/blog-03.jpg",
+      "Let's get ready for the second briefing! Here are the things you need to prepare.",
+    image: "/images/guide/taklimat2.jpeg",
     tags: ["general"],
     by: "",
     url: "welcome-to-kem-belia",
@@ -96,7 +94,7 @@ const blogData: Blog[] = [
     title: "4 Core Competition Components",
     paragraph:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/blog-03.jpg",
+    image: "/images/guide/4components.jpeg",
     tags: ["general"],
     by: "",
     url: "welcome-to-kem-belia",
@@ -106,7 +104,7 @@ const blogData: Blog[] = [
     title: "Awards & Prizes",
     paragraph:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/blog-03.jpg",
+    image: "/images/guide/awards.jpeg",
     tags: ["general"],
     by: "",
     url: "welcome-to-kem-belia",

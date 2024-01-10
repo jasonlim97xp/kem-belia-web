@@ -7,14 +7,14 @@ const SingleBlog = ({ blog }: { blog: Blog }) => {
   return (
     <>
       <div
-        className="wow fadeInUp relative overflow-hidden rounded-md bg-white shadow-xl "
+        className="wow fadeInUp relative overflow-hidden rounded-md bg-white shadow-xl"
         data-wow-delay=".1s"
       >
         <div className="relative block h-[220px] w-full">
           <span className="absolute right-6 top-6 z-20 inline-flex items-center justify-center rounded-full bg-primary px-4 py-2 text-sm font-semibold capitalize text-white">
             {tags[0]}
           </span>
-          <Image src={image} alt="image" fill />
+          <Image src={image} alt="image" fill style={{ objectFit: "cover" }} />
         </div>
         <div className="p-6">
           <h3>
@@ -22,7 +22,7 @@ const SingleBlog = ({ blog }: { blog: Blog }) => {
               {title}
             </p>
           </h3>
-          <p className=" pb-6 text-base font-medium text-body-color ">
+          <p className="pb-4 text-base font-medium text-body-color ">
             {paragraph}
           </p>
         </div>
