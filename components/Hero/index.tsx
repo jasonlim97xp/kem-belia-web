@@ -2,7 +2,7 @@ import Link from "next/link";
 import NextImage from "next/image";
 import { blurHashToDataURL } from "@/utils/blurhash-to-base64";
 
-const Hero = async () => {
+const Hero = () => {
   return (
     <>
       <section
