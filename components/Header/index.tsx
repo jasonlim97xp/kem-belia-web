@@ -45,7 +45,7 @@ const Header = () => {
         }`}
       >
         <div className="container">
-          <div className="relative  flex items-center justify-between">
+          <div className="relative flex items-center justify-between">
             <div className="w-60 max-w-full px-2">
               <Link href="/" className={`header-logo block w-full py-2`}>
                 <NextImage
