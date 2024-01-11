@@ -39,7 +39,7 @@ const blogData: Blog[] = [
     image: "/images/guide/ajk.jpeg",
     tags: ["general"],
     by: "",
-    url: "general-details",
+    url: "ajk",
   },
   {
     id: 5,
@@ -78,7 +78,7 @@ const blogData: Blog[] = [
     image: "/images/guide/things-to-bring.png",
     tags: ["general"],
     by: "",
-    url: "welcome-to-kem-belia",
+    url: "things-to-bring",
   },
   {
     id: 9,
@@ -88,7 +88,7 @@ const blogData: Blog[] = [
     image: "/images/guide/taklimat2.jpeg",
     tags: ["general"],
     by: "",
-    url: "welcome-to-kem-belia",
+    url: "taklimat-2-checklist",
   },
   {
     id: 10,
@@ -98,11 +98,11 @@ const blogData: Blog[] = [
     image: "/images/guide/4components.jpeg",
     tags: ["general"],
     by: "",
-    url: "welcome-to-kem-belia",
+    url: "4-components",
   },
   {
     id: 19,
-    title: "Sytem Pemarkahan",
+    title: "System Pemarkahan",
     paragraph:
       "In Kem Belia, everything is about teamwork. Click in to see how the marks are distributed!",
     image: "/images/guide/passport.jpg",
