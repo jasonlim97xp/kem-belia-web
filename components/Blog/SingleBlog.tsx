@@ -18,7 +18,7 @@ const SingleBlog = ({ blog }: { blog: Blog }) => {
         </div>
         <div className="p-6">
           <h3>
-            <p className="mb-4 block text-xl font-bold text-black hover:text-primary sm:text-2xl ">
+            <p className="mb-4 block text-xl font-bold text-black sm:text-2xl ">
               {title}
             </p>
           </h3>
