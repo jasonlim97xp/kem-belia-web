@@ -8,6 +8,7 @@ import VideoCard from "./VideoCard";
 
 import { pinpoints } from "./pinpointsData";
 import { videos } from "./videosData";
+import { blurHashToDataURL } from "@/utils/blurhash-to-base64";
 
 const MapPage = () => {
   //Handle Map Clicks
@@ -72,6 +73,8 @@ const MapPage = () => {
                       alt="map"
                       width="1000"
                       height="1000"
+                      placeholder="blur"
+                      blurDataURL={blurHashToDataURL("/bukit_lagong_map.jpg")}
                     />
                     {pinpoints.map((pinpoint) => (
                       <div

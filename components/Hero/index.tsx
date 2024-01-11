@@ -1,7 +1,8 @@
 import Link from "next/link";
 import NextImage from "next/image";
+import { blurHashToDataURL } from "@/utils/blurhash-to-base64";
 
-const Hero = () => {
+const Hero = async () => {
   return (
     <>
       <section
@@ -20,6 +21,8 @@ const Hero = () => {
                   alt="kembelia42"
                   width={400}
                   height={400}
+                  placeholder="blur"
+                  blurDataURL={blurHashToDataURL("/kb42_logo.png")}
                 />
                 <h1 className="mb-10 text-3xl font-bold leading-tight text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
                   Kem Belia Ke-42 2024

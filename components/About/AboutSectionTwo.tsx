@@ -11,11 +11,11 @@ const AboutSectionTwo = () => {
               data-wow-delay=".15s"
             >
               <Image
-                src="/campsite.jpeg"
-                alt="about image"
+                src="/bukit_lagong_map.jpg"
+                alt="bukit_lagong_map"
                 width="0"
                 height="0"
-                sizes="100vw"
+                sizes="(max-width: 767px) 100vw, (max-width: 991px) 50vw, 33vw"
                 className="h-full w-full"
               />
             </div>

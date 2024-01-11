@@ -14,7 +14,8 @@ const blogData: Blog[] = [
   {
     id: 2,
     title: "Kem Belia Details",
-    paragraph: "Learn more about the camp details.",
+    paragraph:
+      "The camp details encompass a wide range of information that will help you understand what the camp is all about and what to expect.",
     image: "/images/guide/kem-details.jpeg",
     tags: ["general"],
     by: "",
@@ -24,8 +25,8 @@ const blogData: Blog[] = [
     id: 3,
     title: "Lagu Tema Kem",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/blog-02.jpg",
+      "The selection of a theme song is a crucial decision that can greatly impact the perception and overall experience of a project or event. Here's the official theme song for Kem Belia Ke-42!",
+    image: "/images/guide/lagu.jpeg",
     tags: ["general"],
     by: "",
     url: "lagu-tema",
@@ -34,8 +35,8 @@ const blogData: Blog[] = [
     id: 4,
     title: "Knowing Your AJK Members",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/blog-02.jpg",
+      "There are many roles in organizing Kem Belia. Find out what roles there are and who fills them!",
+    image: "/images/guide/ajk.jpeg",
     tags: ["general"],
     by: "",
     url: "general-details",
@@ -44,8 +45,8 @@ const blogData: Blog[] = [
     id: 5,
     title: "Team Member Roles",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/blog-03.jpg",
+      "Each member brings unique skills, expertise, and responsibilities to the table, contributing to the overall effectiveness and efficiency of the team. ",
+    image: "/images/guide/roles.jpeg",
     tags: ["general"],
     by: "",
     url: "team-members-role",
@@ -54,8 +55,8 @@ const blogData: Blog[] = [
     id: 6,
     title: "Whistle System",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/blog-03.jpg",
+      "The whistle system is a crucial tool that facilitates efficient communication, safety, and organization. If you heard the whistle, run!",
+    image: "/images/guide/whistle.jpeg",
     tags: ["general"],
     by: "",
     url: "whistle-system",
@@ -100,6 +101,16 @@ const blogData: Blog[] = [
     url: "welcome-to-kem-belia",
   },
   {
+    id: 19,
+    title: "Sytem Pemarkahan",
+    paragraph:
+      "In Kem Belia, everything is about teamwork. Click in to see how the marks are distributed!",
+    image: "/images/guide/passport.jpg",
+    tags: ["general"],
+    by: "",
+    url: "system-pemarkahan",
+  },
+  {
     id: 11,
     title: "Awards & Prizes",
     paragraph:
@@ -107,14 +118,14 @@ const blogData: Blog[] = [
     image: "/images/guide/awards.jpeg",
     tags: ["general"],
     by: "",
-    url: "welcome-to-kem-belia",
+    url: "awards",
   },
   {
     id: 12,
     title: "Ketua Roles & Responsibilities",
     paragraph:
       "Don't be worried if this is your first time being group leader. Just remember that leadership is not a position nor a title, it is action and example!",
-    image: "/images/guide/Ketua.jpeg",
+    image: "/images/guide/ketua.jpeg",
     tags: ["roles"],
     by: "",
     url: "ketua",
@@ -154,7 +165,7 @@ const blogData: Blog[] = [
     id: 16,
     title: "Kebudayaan Roles & Responsibilities",
     paragraph:
-      "Are you excited for Malam Kebudayaan Kem Belia Ke-42: Malam Fiest Malaysia? Well, so do I! Click in to see what you have to prepare for Malam Kebudayaan.",
+      "Are you excited for Malam Kebudayaan Kem Belia Ke-42: Malam Fiesta Malaysia? Well, so do I! Click in to see what you have to prepare for Malam Kebudayaan.",
     image: "/images/guide/kebudayaan.png",
     tags: ["roles"],
     by: "",

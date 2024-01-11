@@ -17,14 +17,14 @@
     "@types/mdx": "^2.0.10",
     "eslint": "8.33.0",
     "eslint-config-next": "13.1.6",
+    "fast-blurhash": "^1.1.2",
     "next": "13.1.6",
     "next-themes": "^0.2.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.12.0",
     "react-modal-video": "^2.0.0",
-    "react-youtube": "^10.1.0",
-    "sharp": "^0.33.1"
+    "react-youtube": "^10.1.0"
   },
   "devDependencies": {
     "@types/node": "^18.15.11",

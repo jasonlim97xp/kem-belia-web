@@ -1,5 +1,5 @@
 export const Pagination = ({ currentPage, totalPages, onPageChange }) => {
-  const pageRange = 2; // Number of page numbers to display on each side of the current page
+  const pageRange = 5; // Number of page numbers to display on each side of the current page
   const pageNumbers = [];
 
   for (
