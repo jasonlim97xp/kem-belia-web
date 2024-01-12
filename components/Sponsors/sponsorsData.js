@@ -87,7 +87,7 @@ export const sponsors = [
   {
     id: 18,
     name: "Yeos",
-    logo: "yeos_logo.png",
+    logo: "yeos.png",
   },
   {
     id: 19,

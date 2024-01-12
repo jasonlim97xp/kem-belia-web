@@ -15,8 +15,8 @@ const AboutSectionTwo = () => {
                 alt="bukit_lagong_map"
                 width="0"
                 height="0"
-                sizes="(max-width: 767px) 100vw, (max-width: 991px) 50vw, 33vw"
-                className="h-full w-full"
+                sizes="(max-width: 767px) 100vw, (max-width: 991px) 10vw, 15vw"
+                className=" aspect-square  w-full"
               />
             </div>
           </div>
