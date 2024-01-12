@@ -7,14 +7,14 @@ const Sponsors = () => {
         Our Sponsors
       </h2>
 
-      <div className="mx-auto grid max-w-6xl grid-cols-3 gap-2 lg:grid-cols-5 ">
+      <div className="mx-auto grid max-w-6xl grid-cols-3 gap-2 lg:grid-cols-7 ">
         {sponsors.map((sponsor) => (
           <div className="flex items-center justify-center">
             <img
               className=" rounded-none sm:p-0 lg:rounded-2xl lg:p-4"
               src={`/images/sponsors/${sponsor.logo}`}
-              width="120"
-              height="120"
+              width="180"
+              height="180"
               alt={sponsor.name + " logo"}
               title={sponsor.name}
               loading="lazy"

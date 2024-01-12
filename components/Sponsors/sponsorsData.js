@@ -22,7 +22,7 @@ export const sponsors = [
   {
     id: 5,
     name: "Hair Boss Barbershop",
-    logo: "hair_boss_barbershop.jpeg",
+    logo: "hair_boss_barbershop_logo.png",
   },
   {
     id: 6,
@@ -77,7 +77,7 @@ export const sponsors = [
   {
     id: 16,
     name: "Tishas Klang Stockist",
-    logo: "tishas_klang_stockist.jpeg",
+    logo: "tishas_klang_stockist_logo.jpeg",
   },
   {
     id: 17,
