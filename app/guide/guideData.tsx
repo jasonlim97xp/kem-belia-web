@@ -90,16 +90,16 @@ const blogData: Blog[] = [
     by: "",
     url: "taklimat-2-checklist",
   },
-  {
-    id: 10,
-    title: "4 Core Competition Components",
-    paragraph:
-      "Competition components are not built to torture you, but to test what you have learned in this camp so that you don't go back empty minded!",
-    image: "/images/guide/4components.jpeg",
-    tags: ["general"],
-    by: "",
-    url: "4-components",
-  },
+  // {
+  //   id: 10,
+  //   title: "4 Core Competition Components",
+  //   paragraph:
+  //     "Competition components are not built to torture you, but to test what you have learned in this camp so that you don't go back empty minded!",
+  //   image: "/images/guide/4components.jpeg",
+  //   tags: ["general"],
+  //   by: "",
+  //   url: "4-components",
+  // },
   {
     id: 19,
     title: "System Pemarkahan",
