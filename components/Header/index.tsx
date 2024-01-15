@@ -145,12 +145,12 @@ const Header = () => {
                 >
                   HOME
                 </Link>
-                <Link
+                {/* <Link
                   href="/map"
                   className="hidden px-7 py-3 text-sm font-bold text-black hover:opacity-70 md:block "
                 >
                   MAP
-                </Link>
+                </Link> */}
                 <Link
                   // href="/signup"
                   href="/guide"

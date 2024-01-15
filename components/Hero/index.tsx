@@ -34,12 +34,12 @@ const Hero = () => {
                   >
                     View Campers Guide
                   </Link>
-                  <Link
+                  {/* <Link
                     href="/map"
                     className="rounded-md bg-[#FFFFFF] px-8 py-4 text-base font-semibold text-[#FF0000] duration-300 ease-in-out hover:bg-[#FFFFFF]/80"
                   >
                     View Campsite
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>

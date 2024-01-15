@@ -15,6 +15,7 @@
     "@next/font": "13.1.6",
     "@next/mdx": "^14.0.4",
     "@types/mdx": "^2.0.10",
+    "@vercel/analytics": "^1.1.1",
     "eslint": "8.33.0",
     "eslint-config-next": "13.1.6",
     "fast-blurhash": "^1.1.2",
