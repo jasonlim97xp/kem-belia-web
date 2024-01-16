@@ -22,6 +22,26 @@ const blogData: Blog[] = [
     url: "general-details",
   },
   {
+    id: 20,
+    title: "Lagu BSMM",
+    paragraph:
+      "In times of uncertainty and discord, the society song acts as a unifying force, amplifying the voices of compassion, empathy, and unity.",
+    image: "/images/guide/lagu-bsm.jpg",
+    tags: ["general"],
+    by: "",
+    url: "lagu-bsm",
+  },
+  {
+    id: 21,
+    title: "Ikrar BSMM",
+    paragraph:
+      "Ikrar BSMM is a solemn commitment that embodies the core principles and values of the Red Crescent movement.",
+    image: "/images/guide/ikrar-bsm.jpeg",
+    tags: ["general"],
+    by: "",
+    url: "ikrar-bsm",
+  },
+  {
     id: 3,
     title: "Lagu Tema Kem",
     paragraph:
