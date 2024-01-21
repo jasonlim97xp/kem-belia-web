@@ -131,6 +131,26 @@ const blogData: Blog[] = [
     url: "system-pemarkahan",
   },
   {
+    id: 22,
+    title: "Fist Aid Relay",
+    paragraph:
+      "One of the core component in Kem Belia is First Aid Relay. Train yourself to be a first aider and save lives!",
+    image: "/images/guide/first-aid-relay.jpeg",
+    tags: ["competition"],
+    by: "",
+    url: "first-aid-relay",
+  },
+  {
+    id: 23,
+    title: "Sosial Relay",
+    paragraph:
+      "Another core component in Kem Belia is Sosial Relay. Click in to see what sosial skills you'll need to learn for this component!",
+    image: "/images/guide/sosial-relay.jpeg",
+    tags: ["competition"],
+    by: "",
+    url: "sosial-relay",
+  },
+  {
     id: 11,
     title: "Awards & Prizes",
     paragraph:
